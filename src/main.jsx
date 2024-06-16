@@ -11,11 +11,7 @@ import Social from './SocialSection.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <>
-      <Navbar/>
-      <HeroSection/>
-      <Skills/>
-      <Projects/>
-      <Social/>
+      <App/>
     </>
   </React.StrictMode>,
 )

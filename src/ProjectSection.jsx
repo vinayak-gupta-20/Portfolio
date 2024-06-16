@@ -10,7 +10,7 @@ function ProjectCard({ image, title, desc }) {
         <div className="text-white w-[500px] flex flex-col items-center relative">
             <div className="flex justify-center items-center h-72 w-full overflow-hidden rounded-xl hover:opacity-60 transition-all ease-in-out duration-300" style={{ backgroundImage: `url(${image})`, backgroundSize:"cover" }}>
                 <div className="absolute inset-0 opacity-0 flex  items-center justify-center hover:opacity-100 transition-opacity duration-300 w-full h-full gap-4">
-                    <button className="bg-slate-900 p-2 rounded-md">Code</button>
+                    <a href="https://github.com/vinayak-gupta-20/UrbanVista"><button className="bg-slate-900 p-2 rounded-md">Code</button></a>
                     <button className="bg-slate-900 p-2 rounded-md">Live Preview</button>
                 </div>
             </div>
